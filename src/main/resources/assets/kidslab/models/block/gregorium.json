@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "kidslab:blocks/regenbogen",
+    "up": "kidslab:blocks/regenbogen",
+    "north": "kidslab:blocks/regenbogen",
+    "east": "kidslab:blocks/regenbogen",
+    "south": "kidslab:blocks/regenbogen",
+    "west": "kidslab:blocks/regenbogen",
+    "particle": "kidslab:blocks/regenbogen"
+  }
+}

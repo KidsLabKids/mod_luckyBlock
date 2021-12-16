@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "kidslab:blocks/gelb",
+    "up": "kidslab:blocks/gelb",
+    "north": "kidslab:blocks/lucky",
+    "east": "kidslab:blocks/lucky",
+    "south": "kidslab:blocks/lucky",
+    "west": "kidslab:blocks/lucky",
+    "particle": "kidslab:blocks/gelb"
+  }
+}

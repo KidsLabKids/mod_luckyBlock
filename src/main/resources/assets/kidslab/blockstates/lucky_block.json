@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "kidslab:block/lucky_block"
+    }
+  }
+}

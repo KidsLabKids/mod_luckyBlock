@@ -1,0 +1,111 @@
+{
+  "id_map": {},
+  "mod_elements": [
+    {
+      "name": "Gregorium",
+      "type": "block",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "gregorium"
+    },
+    {
+      "name": "LuckyBlockWennDerBlockVomSpielerZerstortWird",
+      "type": "procedure",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "lucky_block_wenn_der_block_vom_spieler_zerstort_wird",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "LuckyBlock",
+      "type": "block",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "lucky_block"
+    },
+    {
+      "name": "LuckyBlockWennDeroeueouBlockVomSpielerZerstortWird",
+      "type": "procedure",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "lucky_block_wenn_deroeueou_block_vom_spieler_zerstort_wird",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "block.kidslab.lucky_block": "Lucky Block",
+      "block.kidslab.gregorium": "Gregorium"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "kidslab",
+    "modName": "KidsLab",
+    "version": "1.0.0",
+    "author": "kingbbq, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.17.1",
+    "modElementsPackage": "net.mcreator.kidslab",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202100349312
+}
