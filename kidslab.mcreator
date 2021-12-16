@@ -76,6 +76,15 @@
           }
         ]
       }
+    },
+    {
+      "name": "Einstein",
+      "type": "livingentity",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "einstein"
     }
   ],
   "variable_elements": [],
@@ -83,7 +92,9 @@
   "language_map": {
     "en_us": {
       "block.kidslab.lucky_block": "Lucky Block",
-      "block.kidslab.gregorium": "Gregorium"
+      "block.kidslab.gregorium": "Gregorium",
+      "item.kidslab.einstein_spawn_egg": "Einstein Spawn Egg",
+      "entity.kidslab.einstein": "Einstein"
     }
   },
   "foldersRoot": {

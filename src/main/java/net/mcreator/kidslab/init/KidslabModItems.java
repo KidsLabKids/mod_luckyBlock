@@ -9,6 +9,7 @@ import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.event.RegistryEvent;
 
 import net.minecraft.world.level.block.Block;
+import net.minecraft.world.item.SpawnEggItem;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.BlockItem;
@@ -21,6 +22,9 @@ public class KidslabModItems {
 	private static final List<Item> REGISTRY = new ArrayList<>();
 	public static final Item GREGORIUM = register(KidslabModBlocks.GREGORIUM, CreativeModeTab.TAB_BUILDING_BLOCKS);
 	public static final Item LUCKY_BLOCK = register(KidslabModBlocks.LUCKY_BLOCK, CreativeModeTab.TAB_BUILDING_BLOCKS);
+	public static final Item EINSTEIN = register(
+			new SpawnEggItem(KidslabModEntities.EINSTEIN, -1, -1, new Item.Properties().tab(CreativeModeTab.TAB_MISC))
+					.setRegistryName("einstein_spawn_egg"));
 
 	private static Item register(Item item) {
 		REGISTRY.add(item);
